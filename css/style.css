@@ -1,0 +1,89 @@
+.tech-btn {
+  margin-left: 3px;
+}
+
+@media (min-width: 768px) {
+  .subtitle {
+    margin-bottom: 50px;
+  }
+  .avatar {
+    width: 300px;
+    height: 300px;
+    margin-bottom: 10px;
+  }
+  .content .about h1 {
+    margin-top: 50px;
+  }
+
+  .contact h1 {
+    margin-top: 150px;
+  }
+
+  .tech-img img {
+    height: 50px;
+  }
+}
+
+@media (max-width: 480px) {
+  header h1 {
+    font-size: 1.9rem;
+  }
+
+  header .subtitle {
+    font-size: 1rem;
+    margin-bottom: 50px;
+  }
+
+  button {
+    margin-bottom: 5px;
+  }
+
+  .timeline img {
+    margin-bottom: 2px;
+  }
+  .content {
+    min-width: 90%;
+  }
+
+  .content h1 {
+    font-size: 2rem;
+  }
+
+  .content .about h1 {
+    margin-top: 500px;
+  }
+
+  .contact h1 {
+    margin-top: 450px;
+  }
+  .hide {
+    display: none;
+  }
+
+  .avatar {
+    width: 300px;
+    height: 300px;
+    margin-bottom: 10px;
+  }
+}
+
+@media (max-width: 320px) {
+  .navbar-brand img {
+    width: 50px;
+    height: 50px;
+  }
+
+  .avatar {
+    width: 200px;
+    height: 200px;
+    margin-bottom: 10px;
+  }
+
+  .content .about h1 {
+    margin-top: 600px;
+  }
+
+  .tech-img img {
+    height: 30px;
+  }
+}
